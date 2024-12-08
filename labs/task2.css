@@ -1,0 +1,47 @@
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+    height: 128px;
+}
+.title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Bad Script', cursive;
+    font-size: 36px;
+
+}
+.list{
+    background: cyan;
+    line-height: 25px;
+}
+.list li{
+    list-style: none;
+    display:inline-block;
+    text-align:center;
+
+}
+.list li a{
+    display:inline-block;
+    width: 50px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    color:black;
+}
+.list li a:hover{
+    text-decoration: underline;
+    border: 1px solid;
+}
+
+.left{
+    display: inline-block;
+    width: 20%;
+}
+.right{
+    vertical-align: top;
+    display: inline-block;
+    width: calc(80% - 4px);
+}
+footer{
+    text-align: center;
+    background: cyan;
+}

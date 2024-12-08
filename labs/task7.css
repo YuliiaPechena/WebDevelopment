@@ -1,0 +1,114 @@
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Balsamiq Sans', cursive, sans-serif;
+    background-color: #fef3b9;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#question {
+    font-size: 1.2em;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1em;
+    color: #555;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.right_div, .wrong_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.right {
+    background-color: rgba(0, 200, 0, 0.3);
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.wrong {
+    background-color: rgba(255, 44, 55, 0.3);
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.hidden {
+    display: none;
+}
+
+#btn1 {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+}
+
+#btn1:hover {
+    background-color: #ddd;
+}
+
+#btn2 {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#btn2:hover {
+    background-color: #45a049;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+#y1, #y2, #y3, #y4 {
+    margin: 10px 0;
+}
+
+#answer {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #333;
+}

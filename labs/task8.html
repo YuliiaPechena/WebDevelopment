@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест з HTML, CSS та JavaScript</title>
+    <link rel="stylesheet" href="task8.css">
+</head>
+<body>
+    <div class="wrapper" id="wrapper">
+        <div id="questions">
+            <h2 id="title"></h2>
+            <p id="question"></p>
+            <p><input type="radio" name="year" id="y1"><span id="a1"></span></p>
+            <p><input type="radio" name="year" id="y2"><span id="a2"></span></p>
+            <p><input type="radio" name="year" id="y3"><span id="a3"></span></p>
+            <p><input type="radio" name="year" id="y4"><span id="a4"></span></p>
+
+            <button id="get_answer">Відповісти</button>
+
+            <div class="right_div hidden" id="right_div">
+                <p class="right" id="right">Правильна відповідь</p>
+                <button id="next_question">Наступне питання</button>
+            </div>
+
+            <div class="wrong_div hidden" id="wrong_div">
+                <p class="wrong" id="wrong">Неправильна відповідь</p>
+                <button id="view_answer">Подивитися відповідь</button>
+            </div>
+
+            <p id="answer" class="hidden"></p>
+        </div>
+
+        <div id="total_div">
+            <p>Номер питання: <span id="n"></span></p>
+            <p>Кількість правильних відповідей: <span id="n_right"></span> (з першого разу).</p>
+        </div>
+    </div>
+
+    <input type="hidden" value="0" id="n_question">
+
+    <script src="task8.js"></script>
+</body>
+</html>
